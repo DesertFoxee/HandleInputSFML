@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\bin">
+      <UniqueIdentifier>{a68d1e93-a411-4327-bd44-a5b212c5ebfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{1f710dd0-b204-4f87-9542-e1a18d315810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\library">
+      <UniqueIdentifier>{98515101-7ecb-412a-8022-4c994c415dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\input">
+      <UniqueIdentifier>{8276d1ec-63c8-40ec-9afe-eaf391eca3b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\library\input">
+      <UniqueIdentifier>{62b62c0f-a0aa-4e43-af22-264e98d017c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2F.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Convert.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="m_keyboard.cpp">
+      <Filter>Source Files\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="m_mouse.cpp">
+      <Filter>Source Files\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="m_baseinput.cpp">
+      <Filter>Source Files\src\input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="openal32.dll">
+      <Filter>Header Files\bin</Filter>
+    </None>
+    <None Include="sfml-audio-2.dll">
+      <Filter>Header Files\bin</Filter>
+    </None>
+    <None Include="sfml-audio-d-2.dll">
+      <Filter>Header Files\bin</Filter>
+    </None>
+    <None Include="sfml-graphics-2.dll">
+      <Filter>Header Files\bin</Filter>
+    </None>
+    <None Include="sfml-graphics-d-2.dll">
+      <Filter>Header Files\bin</Filter>
+    </None>
+    <None Include="sfml-network-2.dll">
+      <Filter>Header Files\bin</Filter>
+    </None>
+    <None Include="sfml-network-d-2.dll">
+      <Filter>Header Files\bin</Filter>
+    </None>
+    <None Include="sfml-system-2.dll">
+      <Filter>Header Files\bin</Filter>
+    </None>
+    <None Include="sfml-system-d-2.dll">
+      <Filter>Header Files\bin</Filter>
+    </None>
+    <None Include="sfml-window-2.dll">
+      <Filter>Header Files\bin</Filter>
+    </None>
+    <None Include="sfml-window-d-2.dll">
+      <Filter>Header Files\bin</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2F.h">
+      <Filter>Header Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="Convert.h">
+      <Filter>Header Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="Actionable.h">
+      <Filter>Header Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="m_keyboard.h">
+      <Filter>Header Files\library\input</Filter>
+    </ClInclude>
+    <ClInclude Include="m_mouse.h">
+      <Filter>Header Files\library\input</Filter>
+    </ClInclude>
+    <ClInclude Include="m_baseinput.h">
+      <Filter>Header Files\library\input</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
